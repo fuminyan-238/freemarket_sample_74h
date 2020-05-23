@@ -11,13 +11,13 @@ describe CreditCard do
     it "card_idがない場合は登録できないこと" do
       card = build(:credit_card, card_id: "")
       card.valid?
-      expect(card.errors[:card_id]).to include("can't be blank")
+      expect(card.errors[:card_id]).to include("が入力されていません。")
     end
 
     it "customer_idがない場合は登録できないこと" do
       card = build(:credit_card, customer_id: "")
       card.valid?
-      expect(card.errors[:customer_id]).to include("can't be blank")
+      expect(card.errors[:customer_id]).to include("が入力されていません。")
     end
   end
 end

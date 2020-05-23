@@ -29,3 +29,4 @@
 .DS_Store
 public/uploads/*
 public/images/test/*
+credentials.yml.enc

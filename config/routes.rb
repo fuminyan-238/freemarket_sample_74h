@@ -14,11 +14,11 @@ Rails.application.routes.draw do
       get "set_images"
       post 'pay/:id', to: 'items#pay'
       get 'done', to: 'items#done'
+      get 'category/get_category_children', to: 'items#get_category_children', defaults: { format: 'json' }
+      get 'category/get_category_grandchildren', to: 'items#get_category_grandchildren', defaults: { format: 'json' }
     end
     member do
       get "buy"
-      get 'category/get_category_children', to: 'items#get_category_children', defaults: { format: 'json' }
-      get 'category/get_category_grandchildren', to: 'items#get_category_grandchildren', defaults: { format: 'json' }
     end
   end
 
