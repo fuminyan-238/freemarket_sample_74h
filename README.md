@@ -56,15 +56,18 @@ MySQL
 
 ### :page_facing_up:DB設計
 フリマアプリに必要なテーブルとカラムを設定しました。
-(https://user-images.githubusercontent.com/63274382/83217669-3dffb500-a1a7-11ea-86b5-5f6bac18972c.png)
+
+![83140496-2255c980-a129-11ea-8ff3-b9fedfbf8410](https://user-images.githubusercontent.com/63274382/83218885-e6af1400-a1a9-11ea-9541-44a6c024550c.png)
 
 ### :art: 商品詳細ページ（フロントエンド）
 商品を選択した際に、商品名、画像、商品説明文、などの情報を表示できるようマークアップを行いました。
+
 https://gyazo.com/ac38cdf5cfc7965009bec0edde3eec96
 
 ### :art: 商品出品ページ（フロントエンド）
 商品出品ボタンを選択して、出品ページに飛んだ際のビューを作成。
 itemテーブル内の全てのカラム情報を保存できるよう、入力フォームを作成しました。
+
 https://gyazo.com/59a7df91eb41f4b6fc09a28c8d422144
 
 ### :credit_card: 商品購入ページ（サーバーサイド）
@@ -74,7 +77,9 @@ payjpを導入し、カード登録時にpayjp側へカード情報と顧客情�
 DBのキーを利用してpayjpのクレジットカード情報を取得し、自分のカード情報(下4桁,期限など)を表示する機能の実装
 商品購入時にDBのキーを使ってpayjpの自分のカードを使用し、決済が完了する機能の実装
 決済が完了すると注文情報、売上情報のレコードを作成する処理の実装
+
 https://gyazo.com/194fb47d2cecc57cbdf83eeeac747829
+
 https://gyazo.com/4a182439f387a170c039c722f47c3b1a
 
 # DB設計
