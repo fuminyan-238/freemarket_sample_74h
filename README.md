@@ -12,7 +12,43 @@ MySQL
 * Rails
 5.2.4.2
 
-:green_apple:プログラミングスクールTECH::CAMPの最終課題にて某フリーマーケットサービスのクローンサイトを作成
+:green_apple:プログラミングスクールTECH::CAMPの最終課題にて某フリーマーケットサービスのクローンサイトを作成しました。
+約1ヶ月間、４人チームでアジャイル開発を行いました。
+
+## 🌐 App URL
+### **http://54.168.43.9**
+
+※Basic認証をかけています。ご覧の際は以下のIDとPassを入力してください。
+- Basic認証
+  - ID: Yuto-chan
+  - Pass: ppf5p3d
+**Chromeのバージョンアップデートでセキュリティ強化された為、現状Basic認証が度々求められる仕様となっています。そのため、ブラウザはSafariにて閲覧ください。**
+
+
+## テストユーザー
+- **購入者用アカウント**
+  - メールアドレス: mayumi@gmail.com
+  - パスワード: mayumayu
+
+- **購入用カード情報**
+  - 番号： 4242424242424242
+  - 期限： 7/25
+  - セキュリティコード：123
+
+  
+- **出品者用アカウント**
+  - メールアドレス名: test@gmail.com
+  - パスワード: testtest
+　
+## 🔨開発環境
+- Ruby 2.5.1
+- Rails 5.2.4.2
+- MySQL
+- Haml/SCSS
+- jQuery
+- VSCode（Visual Studio Code）
+- AWS(EC2/E3)
+- Github
 
 # フリマアプリDB設計
 ## usersテーブル
