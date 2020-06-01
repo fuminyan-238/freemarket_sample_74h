@@ -57,18 +57,18 @@ MySQL
 ### :page_facing_up:DB設計
 フリマアプリに必要なテーブルとカラムを設定しました。
 
-<img src = "https://user-images.githubusercontent.com/63274382/83218885-e6af1400-a1a9-11ea-9541-44a6c024550c.png" width="400px;" />
+<img src = "https://user-images.githubusercontent.com/63274382/83218885-e6af1400-a1a9-11ea-9541-44a6c024550c.png" width="600px;" />
 
 ### :art: 商品詳細ページ（フロントエンド）
 商品を選択した際に、商品名、画像、商品説明文、などの情報を表示できるようマークアップを行いました。
 
-![ac38cdf5cfc7965009bec0edde3eec96](https://user-images.githubusercontent.com/63274382/83397489-ac0edb00-a438-11ea-9f4d-47c4f574adaf.gif)
+<img src = "https://user-images.githubusercontent.com/63274382/83397489-ac0edb00-a438-11ea-9f4d-47c4f574adaf.gif" width="600px;" />
 
 ### :art: 商品出品ページ（フロントエンド）
 商品出品ボタンを選択して、出品ページに飛んだ際のビューを作成。
 itemテーブル内の全てのカラム情報を保存できるよう、入力フォームを作成しました。
 
-![59a7df91eb41f4b6fc09a28c8d422144](https://user-images.githubusercontent.com/63274382/83397840-3f481080-a439-11ea-9821-89685058b2af.gif)
+<img src = "https://user-images.githubusercontent.com/63274382/83397840-3f481080-a439-11ea-9821-89685058b2af.gif" width="600px;" />
 
 ### :credit_card: 商品購入ページ（サーバーサイド）
 クレジットカードへのアクセスキーを保存するモデル、コントローラ、ルーティングの作成
@@ -78,9 +78,9 @@ DBのキーを利用してpayjpのクレジットカード情報を取得し、�
 商品購入時にDBのキーを使ってpayjpの自分のカードを使用し、決済が完了する機能の実装
 決済が完了すると注文情報、売上情報のレコードを作成する処理の実装
 
-![194fb47d2cecc57cbdf83eeeac747829](https://user-images.githubusercontent.com/63274382/83397909-5d157580-a439-11ea-92b3-e4b32b2702e7.gif)
+<img src = "https://user-images.githubusercontent.com/63274382/83397909-5d157580-a439-11ea-92b3-e4b32b2702e7.gif" width="600px;" />
 
-![4a182439f387a170c039c722f47c3b1a](https://user-images.githubusercontent.com/63274382/83398021-8a622380-a439-11ea-8076-c82e6c1f7c3a.gif)
+<img src = "https://user-images.githubusercontent.com/63274382/83398021-8a622380-a439-11ea-8076-c82e6c1f7c3a.gif" width="600px;" />
 
 # DB設計
 ## usersテーブル
